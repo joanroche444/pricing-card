@@ -1,0 +1,200 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box; 
+}
+html {
+  
+  font-family: "karla";
+  font-size: 16px;
+}
+
+
+
+h2,
+h3,
+p {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  padding: 0.85rem;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+ /* align-items: center;*/
+
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+
+}
+
+#heading2 {
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+#heading3 {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+.first {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  
+}
+.first p {
+  color: lightgray;
+ /* opacity: 0.9;*/
+  line-height:1.5rem;
+}
+.both {
+  color: white;
+}
+.second {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  background-color: #2ab2af;
+  padding: 1.5rem;
+}
+.second p {
+  color: white;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+.second h3 {
+  color: white;
+}
+button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.third {
+  background-color: #2ebfbd;
+  color: white;
+
+ padding:1.5rem;
+ 
+  width: 100%;
+  height: auto;
+  background-color: #2ebfbd;
+  vertical-align: top;
+ 
+}
+
+#dollar {
+  color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
+
+}
+
+#priceof,
+#dollar {
+  display: inline-block;
+}
+
+#priceof {
+  position: relative;
+  top: -3px;
+  left: -11px;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  padding-left: 10px;
+}
+ul {
+  list-style: none;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  padding-left:0%
+}
+button {
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.253);
+  background-color: #c0df34;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 0.9rem 7.5rem;
+  
+  
+  
+
+}
+.content{
+  max-width: 18rem;
+}
+@media screen and (min-width: 768px) {
+
+  .all {
+    height: auto;
+    width: 650px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .first {
+   
+    
+    padding:2rem 2rem 2rem 0;
+   
+  }
+  .first > div.content{
+    padding-right: 0.5rem;
+  }
+
+  .both {
+    width: 100%;
+  
+   
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  .second{
+    padding:3rem 1.5rem;
+    flex:50%;
+  }
+  .third{
+    padding:3rem 1.5rem;
+    flex:50%;
+  }
+.third h3{
+  margin-bottom: 0.9rem;
+}
+  button {
+    background-color: #c0df34;
+    border: none;
+    color: white;
+    padding: 0.9rem 6.6rem;
+    max-width: 20rem;
+   
+  }
+  .content{
+    max-width: 34rem;
+    
+  }
+  
+  .text{
+    width:3rem;
+  }
+    
+}
